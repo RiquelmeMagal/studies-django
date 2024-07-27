@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Vai Na Web</title>
+</head>
+<body>
+    <main>
+        <section>
+            <fieldset>
+                <legend>Formulário de cadastro</legend>
+                <form>
+                    <!-- Cria um input do tipo texto-->
+                    <label for="name">Name:</label>
+                    <input id="name" type="text"
+                    placeholder="escreva seu nome" />
+                    <!-- Cria um input para email -->
+                    <label for="email">E-mail:</label>
+                    <input id="email" type="email"
+                    placeholder="escreva seu email" />
+                    <!-- Cria um input de senhas -->
+                    <label for="password">Senha:</label>
+                    <input id="password" type="password"
+                    name="password" placeholder="escreva sua senha" />
+                    <!-- Cria um input de números -->
+                    <label for="number">Idade:</label>
+                    <input id="number" type="number"
+                    placeholder="escreva sua idade" />
+                    <!-- Cria inputs do tipo 'radio', que serve para selecionar
+                    uma opção-->
+                    <label for="radio"> Aluno vai na web: </label>
+                    <input id="sim" type="radio" />
+                    <label for="sim"> Sim </label>
+                    <input id="nao" type="radio" />
+                    <label for="nao"> Não </label>
+                    <!-- Cria um input do tipo 'checkbox'-->
+                    <label for="batata">Tipos de Batata</label>
+                    <input type="checkbox" id="frita" checked />
+                    <label for="frita">Batata Frita</label>
+                    <input type="checkbox" id="assada" />
+                    <label for="assada">Batata Assada</label>
+                    <input type="checkbox" id="batata-de-marechal" />
+                    <label for="batata-de-marechal"> Batata de Marechal </label>
+                    <!-- Cria um input para enviar os dados para o servidor,
+                    não precisando de um label, já que o nome do botão vai ser
+                    de acordo com o 'value'-->
+                    <input type="submit" value="Enviar">
+                    </form>
+            </fieldset>
+        </section>
+    </main>
+</body>
+</html>
